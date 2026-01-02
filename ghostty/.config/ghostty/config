@@ -1,0 +1,15 @@
+theme = Brogrammer
+background-opacity = 0.85
+background-blur-radius = 20
+font-family = Fira Code Retina
+font-size = 13
+font-feature = +calt,+liga,+dlig
+gtk-titlebar = false
+window-save-state = always
+fullscreen = false
+auto-update = check
+auto-update-channel = stable
+
+keybind = ctrl+shift+p=unbind
+keybind = ctrl+shift+n=unbind
+keybind = ctrl+,=unbind
