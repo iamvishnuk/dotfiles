@@ -129,6 +129,15 @@ esac
 # pnpm end
 eval "$(starship init zsh)"
 
+
+# Ctrl + f → launch tmux sessionizer (FIXED)
+bindkey -M emacs -s '^F' 'tmux-sessionizer\n'
+
 # lazydocker 
 alias lazydocker='~/.local/bin/lazydocker'
 alias lzd='~/.local/bin/lazydocker'
+
+# opencode
+export PATH=/home/vishnu/.opencode/bin:$PATH
+
+export PATH="$HOME/.local/bin:$PATH"
