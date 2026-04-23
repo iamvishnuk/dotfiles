@@ -117,7 +117,7 @@ style  = "fg:#ed8796"
 format = "[via $symbol$version ]($style)"
 
 [golang]
-symbol = " "
+symbol = "󰟓 "
 style  = "fg:#91d7e3"
 format = "[via $symbol$version ]($style)"
 
